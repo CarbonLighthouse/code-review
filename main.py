@@ -15,6 +15,7 @@ class IntervalBatcher:
 
 
     def flush(self):
+        # TODO: Make this behavior configurable somehow...
         print(self.q)
         self.q = []
 
@@ -45,7 +46,6 @@ class Logger:
 
 
 if __name__ == "__main__":
-    # execute only if run as a script
     logger = Logger(interval=1.0)
 
     logger.start()
