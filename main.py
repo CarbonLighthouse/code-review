@@ -11,5 +11,5 @@ if __name__ == "__main__":
     logger = Logger()
 
     for i in range(10):
-        logger.write_log(f"Message i")
-        time.sleep(.5)
+        logger.write_log(f"Message {i}")
+        time.sleep(.25)
