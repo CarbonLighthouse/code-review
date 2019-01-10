@@ -15,7 +15,8 @@ class IntervalBatcher:
 
 
     def flush(self):
-        # TODO: Make this behavior configurable somehow...
+        # TODO: How could we make this behavior configurable?
+        # TODO: I'd love for IntervalBatcher to be more flexible. Any ideas?
         print(self.q)
         self.q = []
 
